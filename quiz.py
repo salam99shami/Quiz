@@ -7,6 +7,18 @@ vragen=[
         "antwoorden":["Programmeertaal","Soort slang","Scripts taal","Framework"],
         "goed":"Programmeertaal"
     },
+    {
+        "vak":"programmeren",
+        "vraag":"Wat is het moeilijkste programmeertaal ter wereld?",
+        "antwoorden":["Lua", "Python", "C+", "Malbolge"],
+        "goed":"Malbolge"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Hoeveel verdient een Java developer gemiddeld per maand?",
+        "antwoorden":["1.200 tot 1.500 Euro per maand", "4.200 tot 5.140 per maand", "4.000 tot 5.000 per maand", "9.000 tot 10.000 per maand"],
+        "goed":"4.200 tot 5.140 per maand"
+    },
 ]
 
 def quiz():
