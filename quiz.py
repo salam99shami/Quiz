@@ -19,6 +19,11 @@ vragen=[
         "antwoorden":["1.200 tot 1.500 Euro per maand", "4.200 tot 5.140 per maand", "4.000 tot 5.000 per maand", "9.000 tot 10.000 per maand"],
         "goed":"4.200 tot 5.140 per maand"
     },
+    {
+        "vak":"programmeeren",
+        "vraag":"Waarom wordt 'Hello World' gebruikt aan de begin van een code?",
+        "antwoorden":["Om 'Hallo' tegen de computer te zeggen", "Om de computer jou te laten groeten","Om simpelweg te testen en controleren of het programma juist werkt", "Zodat je een computer laat weten dat je gaat coderen"],
+    }
 ]
 
 def quiz():
