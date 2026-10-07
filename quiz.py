@@ -20,10 +20,17 @@ vragen=[
         "goed":"4.200 tot 5.140 per maand"
     },
     {
-        "vak":"programmeeren",
+        "vak":"programmeren",
         "vraag":"Waarom wordt 'Hello World' gebruikt aan de begin van een code?",
         "antwoorden":["Om 'Hallo' tegen de computer te zeggen", "Om de computer jou te laten groeten","Om simpelweg te testen en controleren of het programma juist werkt", "Zodat je een computer laat weten dat je gaat coderen"],
-    }
+        "goed":"Om simpelweg te testen en controleren of het programma juist werkt"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Hoeveel verdient een web developer?",
+        "antwoorden":["6.000 tot 7.000 Euro per maand", "3.470 tot 5.760 Euro per maand", "2.761 tot 3.4561 Euro per maand", "3.394 tot € 3.693 Euro per maand"],
+        "goed":"3.394 tot € 3.693 Euro per maand"
+    },
 ]
 
 def quiz():
