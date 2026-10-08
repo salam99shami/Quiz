@@ -1,4 +1,5 @@
 import random
+import os 
 
 vragen=[
     {
@@ -26,8 +27,24 @@ vragen=[
     }
 ]
 
+# Highscore laden 
+def highscore_laden():
+    if os.path.exists("highscore.txt"):
+        with open("highscore.txt","r") as bestand:
+            inhoud=bestand.read().strip()
+            if inhoud!="":
+                return int(inhoud)            
+    return 0
+
+# Highscore opslaan
+def highscore_opslaan(score):
+    with open("highscore.txt","w") as bestand:
+        bestand.write(str(score))
+
+
 def quiz():
     score=0
+
     # Vragen door elkaar
     random.shuffle(vragen)
 
@@ -72,7 +89,17 @@ def quiz():
         print("Voldoende. Je kunt nog wat meer leren over Module 01.")
     else:
         print("Je kunt de onderwerpen van Module 01 nog wat beter oefenen.")
-    
+
+    oude_highscore=highscore_laden()
+    if score> oude_highscore:
+        print()
+        print("Nieuwe Highscroe!")
+        print(f"Je oude score is: {oude_highscore}")
+        print(f"Je nieuwe score is: {score}")
+
+        highscore_opslaan(score)
+    else:
+        print(f"De huidige highscore is: {oude_highscore}")
 
 
 while True:
@@ -82,4 +109,4 @@ while True:
         print()
         print("Bedankt voor het spelen!")
         print("Tot de volgende keer!")
-        break
+        
