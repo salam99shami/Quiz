@@ -29,3 +29,16 @@ Salam , Huizefa, Annamare, Anton
 - De highscores van meerdere spelers bewaren.
 - Een grafische gebruikersinterface toevoegen.
 
+## Feedback
+- Vind je de vragen moeilijk, makkelijk of precies goed?
+- Vind je dat de vragen passen bij het onderwerp programmeren?
+- Is het duidelijk hoe je een antwoord moet invoeren?
+- Is het duidelijk hoeveel punten je hebt behaald?
+- Was er een moment waarop je niet wist wat je moest doen?
+- Heb je tijdens het spelen een foutmelding of een probleem ervaren?Zo ja, wat gebeurde er precies?
+- Vind je de quiz nuttig om meer te leren over programmeren?
+- Wat vond je het beste aan de quiz?
+- Wat vond je minder goed aan de quiz?
+- Wat zou je veranderen of verbeteren?
+
+
